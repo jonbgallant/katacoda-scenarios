@@ -1,0 +1,26 @@
+{
+  "title": "Azure IoT Edge Dev Tool Introduction",
+  "description": "Here's how to get started with the Azure IoT Edge Dev Tool",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Install Azure IoT Edge Dev Tool",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "courseData": "setup.sh",
+      "text": "intro.md",
+      "credits": "Jon Gallant"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
