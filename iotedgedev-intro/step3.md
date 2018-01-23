@@ -1,1 +1,1 @@
-`edgeproject\.env`{{open}}
+`/root/edgeproject/.env`{{open}}
