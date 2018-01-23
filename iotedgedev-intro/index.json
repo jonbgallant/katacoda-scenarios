@@ -1,4 +1,5 @@
 {
+  "pathwayTitle": "Azure IoT Edge",
   "title": "Azure IoT Edge Dev Tool Introduction",
   "description": "Here's how to get started with the Azure IoT Edge Dev Tool",
   "difficulty": "beginner",
@@ -12,6 +13,7 @@
     ],
     "intro": {
       "courseData": "setup.sh",
+      "code": "setup.sh",
       "text": "intro.md",
       "credits": "Jon Gallant"
     },
