@@ -1,4 +1,3 @@
-1. Create a Copy of .env.tmp called .env
-`cp edgeproject/.env.tmp edgeproject/.env`{{execute}}
-1. Open .env `edgeproject/.env`{{open}}
-1. Set Environment Variables
+Execute the following command to scaffold out an Azure IoT Edge Project.
+
+`iotedgedev project --create edgeproject`{{execute}}

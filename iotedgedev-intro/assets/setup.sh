@@ -1,2 +1,1 @@
-curl -O https://bootstrap.pypa.io/get-pip.py
-python get-pip.py
+docker run -ti -v /root:/root jongallant/iotedgedev-deps:0.0.1-ubuntu
