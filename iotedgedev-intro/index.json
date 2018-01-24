@@ -11,16 +11,20 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Install Azure IoT Edge Dev Tool",
+        "title": "Step 2 - Run Azure IoT Edge Dev Tool Container",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Create Azure IoT Edge Project",
+        "title": "Step 3 - Install Azure IoT Edge Dev Tool",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Set Environment Variables",
+        "title": "Step 4 - Create Azure IoT Edge Project",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Set Environment Variables",
+        "text": "step5.md"
       }
     ],
     "intro": {

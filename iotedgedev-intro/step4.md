@@ -1,5 +1,3 @@
-1. Open .env `edgeproject/.env`{{open}}
+Execute the following command to scaffold out an Azure IoT Edge Project.
 
-> Note that katacoda does not display the .env file in the tree navigation to the right, but it is there.  
-
-1. Set Environment Variables
+`iotedgedev project --create edgeproject`{{execute}}
