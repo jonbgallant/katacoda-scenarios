@@ -43,7 +43,7 @@
       }
     ],
     "intro": {
-      "courseData": "setup.sh",
+      "code": "setup.sh",
       "text": "intro.md",
       "credits": "Jon Gallant"
     },
@@ -55,6 +55,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "dotnet"
+    "imageid": "ubuntu"
   }
 }
