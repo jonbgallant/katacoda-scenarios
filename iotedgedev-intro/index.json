@@ -26,6 +26,21 @@
         "title": "Step 5 - Set Environment Variables",
         "text": "step5.md"
       }
+      ,
+      {
+        "title": "Step 6 - Build and Deploy Modules",
+        "text": "step6.md"
+      }
+      ,
+      {
+        "title": "Step 7 - Setup and Start Runtime",
+        "text": "step7.md"
+      }
+      ,
+      {
+        "title": "Step 8 - Monitor Messages",
+        "text": "step8.md"
+      }
     ],
     "intro": {
       "courseData": "setup.sh",
@@ -40,6 +55,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "dotnet"
   }
 }

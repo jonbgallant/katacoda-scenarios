@@ -1,0 +1,1 @@
+`iotedgedev runtime --setup --start`{{execute}}

@@ -1,0 +1,1 @@
+`iotedgedev modules --build --deploy`{{execute}}
