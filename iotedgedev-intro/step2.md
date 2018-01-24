@@ -4,4 +4,4 @@ Execute the following command to run the container.
 
 > This will take a few minutes to complete.
 
-`docker run -v /root:/root jongallant/iotedgedev-deps:0.0.1-ubuntu`{{execute}}
+`docker run -v /root:/root jongallant/iotedgedev:0.0.1-deps-ubuntu`{{execute}}

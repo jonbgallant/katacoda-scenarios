@@ -1,1 +1,1 @@
-docker run -ti -v /root:/root jongallant/iotedgedev-deps:0.0.1-ubuntu
+docker run -ti -v /root:/root jongallant/iotedgedev:0.0.1-deps-ubuntu
