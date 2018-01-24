@@ -4,4 +4,4 @@ Execute the following command to run the container.
 
 > This will take a few minutes to complete.
 
-`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /root:/root jongallant/iotedgedev:0.0.1-deps-ubuntu`{{execute}}
+`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /root:/root jongallant/iotedgedev:0.0.1-deps-linux`{{execute}}
