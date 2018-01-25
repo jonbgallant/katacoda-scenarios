@@ -1,1 +1,1 @@
-docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /root:/root jongallant/iotedgedev:0.0.1-deps-linux
+docker pull jongallant/iotedgedev:0.0.1-deps-linux
