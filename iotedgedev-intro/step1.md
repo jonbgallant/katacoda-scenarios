@@ -5,7 +5,7 @@ We will now create all of the Azure resources required:
 1. Azure Container Registry - To host Edge Modules
 
 ## Login to Azure CLI
-`az login`
+`az login`{{execute HOST2}}
 
 ## Set Active Subscription
 `az account set`
