@@ -1,20 +1,5 @@
 {
   "title": "Test",
-  "description": "Test",
-  "difficulty": "beginner",
-  "time": "5 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Test",
-        "text": "step1.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "credits": "Jon Gallant"
-    }
-  },
   "environment": {
     "uilayout": "editor-terminal"
   },
