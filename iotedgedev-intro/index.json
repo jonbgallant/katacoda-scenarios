@@ -49,6 +49,9 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets":{
+      "host01": [{"target": "/root"}]
     }
   },
   "environment": {
