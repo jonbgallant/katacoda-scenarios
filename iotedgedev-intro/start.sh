@@ -1,1 +1,1 @@
-docker pull jongallant/iotedgedev:latest-deps-linux
+docker pull jongallant/iotedgedev
