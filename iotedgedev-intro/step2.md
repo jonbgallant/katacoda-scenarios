@@ -1,7 +1,7 @@
-We have created a Docker image that contains all of the Azure IoT Edge Dependencies including: Python, Docker, .NET Core SDK and the Azure CLI.
+The Azure IoT Edge Dev Tool is a Python script that will speed up your IoT Edge development process.
 
-Execute the following command to run the container.
+> Python, Pip, Docker and the DotNet SDK have already been installed for you.
 
-> This will take a few minutes to complete.
+Execute the following command to install the Azure IoT Edge Dev Tool
 
-`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /iotedge:/iotedge jongallant/iotedgedev`{{execute}}
+`pip install azure-iot-edge-dev-tool`{{execute}}

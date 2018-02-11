@@ -1,18 +1,7 @@
-We will now create all of the Azure resources required:
+We have created a Docker image that contains all of the Azure IoT Edge Dependencies including: Python, Docker, .NET Core SDK and the Azure CLI.
 
-1. Azure IoT Hub - To receive IoT messages
-1. Azure IoT Hub Edge Device - To host Edge Runtime
-1. Azure Container Registry - To host Edge Modules
+Execute the following command to run the container.
 
-## Login to Azure CLI
-`az login`{{execute HOST2}}
+> This will take a few minutes to complete.
 
-## Set Active Subscription
-`az account set`
-
-## Create Azure IoT Hub
-
-`az iot`
-## Create Azure IoT Hub Edge Device
-
-## Create Azure Container Registry
+`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /root:/root -w /root jongallant/iotedgedev`{{execute}}

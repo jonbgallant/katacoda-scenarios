@@ -10,8 +10,12 @@ The **Azure IoT Edge Dev Tool** assists developers in creating IoT Edge Solution
 
 If you are new to Azure IoT Edge, then you should read through the [Azure IoT Edge Concepts](https://docs.microsoft.com/en-us/azure/iot-edge/iot-edge-modules). In a nutshell, the Azure IoT Edge runtime is based on containers. The runtime itself is a container called EdgeAgent. Microsoft also provides a container called EdgeHub that sends messages from the IoT Edge device to your IoT Hub. You, the developer, create custom modules, package them into containers and deploy them to the IoT Edge device via the IoT Hub. One of the biggest benefits of using the IoT Edge Runtime, is that you can remotely deploy new modules, adjust properties, and even call methods on the IoT Edge Device.
 
+The follow diagram illustrates these concepts. EdgeAgent manages the Azure IoT Edge Runtime, EdgeHub sends messages to IoT Hub, and you create custom modules, properties, and routes.
+
 ![Azure IoT Edge Architecture](assets/iotedgearch.png)
 
-In this tutorial, we are going to introduce you to the Azure IoT Edge Dev Tool so you can see how the tool works without having to install anything on your computer.  The solution we are going to build consists of a **simulated temperature sensor** module that will generate random data and a **filter** module which filters messages before sending them to IoT Hub.
+In this tutorial, we are going to introduce you to the Azure IoT Edge Dev Tool so you can see how the tool works without having to install anything on your computer.  The solution we are going to build consists of a **simulated temperature sensor module** that will generate random data and a **filter module** which filters messages before sending them to IoT Hub.
 
 ![Azure IoT Edge Architecture](assets/iotedgearchcustom.png)
+
+Let's get started!

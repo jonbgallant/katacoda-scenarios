@@ -1,1 +1,1 @@
-`iotedgedev modules --build --deploy`{{execute}}
+`iotedgedev runtime --setup --start`{{execute}}

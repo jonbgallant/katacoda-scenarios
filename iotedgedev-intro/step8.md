@@ -1,1 +1,0 @@
-`iothub-explorer --login "" monitor-events ""`{{copy}}

@@ -1,1 +1,1 @@
-`iotedgedev runtime --setup --start`{{execute}}
+`iotedgedev iothub --monitor-events`{{execute}}
