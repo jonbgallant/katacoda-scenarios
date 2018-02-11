@@ -1,6 +1,6 @@
 Welcome to the Azure IoT Edge Dev Tool Introduction Course
 
-In this course we'll learn the basic concepts of **Azure IoT Edge** and learn how to use the **Azure IoT Edge Dev Tool**.
+In this course we'll learn the high-level **Azure IoT Edge** concepts and learn how to use the **Azure IoT Edge Dev Tool**.
 
 The **Azure IoT Edge** addresses two main scenarios:
 1. **Field Gateway:** Enables non internet connected devices to send their data to Azure.
