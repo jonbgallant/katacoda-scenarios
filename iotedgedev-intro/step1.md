@@ -4,4 +4,6 @@ Click on the command below to run the `jongallant/iotedgedev` container, which w
 
 `docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /root:/root -w /root jongallant/iotedgedev`{{execute}}
 
-Click Continue
+Click Continue when you see the following message printed in the terminal:
+
+`Status: Downloaded newer image for jongallant/ioedgedev:latest`
