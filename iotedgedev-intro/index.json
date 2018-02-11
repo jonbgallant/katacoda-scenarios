@@ -49,9 +49,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [{"target": "/iotedge"}]
     }
   },
   "environment": {
