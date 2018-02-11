@@ -6,4 +6,4 @@ The `modules --deploy` command will take the dynamically generated `.config/depl
 
 `iotedgedev modules --build --deploy`{{execute}}
 
-Click Continue when you see the `DEPLOY SUCCEEDED` message.
+Click Continue when you see the `DEPLOY COMPLETE` message.
