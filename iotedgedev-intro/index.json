@@ -3,7 +3,7 @@
   "title": "Azure IoT Edge Dev Tool Introduction",
   "description": "The Azure IoT Edge Dev Tool is a CLI tool that automates the inner-loop dev cycle (dev, test, debug) via simple one-liner commands. Those same commands can then be used in your outer-loop devops cycle, which brings a consistent experience throughout your entire IoT Edge dev process.",
   "difficulty": "intermediate",
-  "time": "20 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {

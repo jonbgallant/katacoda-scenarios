@@ -10,4 +10,7 @@ Click on the following command to navigate to the root of your new solution:
 
 `cd iotedge`{{execute}}
 
+
+> You will notice that the directory tree you see to the right will refresh and contain the `iotedge` folder. Feel free to explore the files there to familiarize yourself with the solution files.
+
 Click Continue

@@ -1,4 +1,4 @@
-The Azure IoT Edge Dev Tool is driven by Environment Variables. The only two variables required to start are IOTHUB_CONNECTION_STRING and DEVICE_CONNECTION_STRING.  When the Edge Dev Tool runs it loads all the variables in the `.env` file, so we need to place those two variables there before we run further commands. The Edge Dev Tool has an `azure --setup` command to help you retrieve those settings and store them in the solution's `.env` file.
+The Azure IoT Edge Dev Tool is driven by Environment Variables. The only two variables required to get started are IOTHUB_CONNECTION_STRING and DEVICE_CONNECTION_STRING.  When the Edge Dev Tool runs it loads all the variables in the `.env` file, so we need to place those two variables in that file before we run further commands. The Edge Dev Tool has an `azure --setup` command to help you retrieve those settings and store them in the solution's `.env` file.
 
 Click on the following command to start that process:
 
