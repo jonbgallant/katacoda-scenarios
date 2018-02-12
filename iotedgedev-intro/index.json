@@ -49,7 +49,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uimessage1": "Please wait while the iotedgedev docker image downloads. You will see 'Status: Downloaded newer image for jongallant/ioedgedev:latest' when it has finished downloading."
+    "uimessage1": "Please wait while the iotedgedev docker image downloads. You will see 'Status: Downloaded newer image for jongallant/iotedgedev:latest' when it has finished downloading."
   },
   "backend": {
     "imageid": "ubuntu"
