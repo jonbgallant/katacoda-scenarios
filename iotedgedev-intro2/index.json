@@ -39,6 +39,7 @@
       }
     ],
     "intro": {
+      "code": "start.sh",
       "text": "intro.md",
       "credits": "Jon Gallant"
     },
