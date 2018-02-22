@@ -1,0 +1,57 @@
+{
+  "pathwayTitle": "Azure IoT Edge (Dev)",
+  "title": "Azure IoT Edge Dev Tool Introduction (Dev)",
+  "description": "The Azure IoT Edge Dev Tool is a CLI tool that automates the inner-loop dev cycle (dev, test, debug) via simple one-liner commands. Those same commands can then be used in your outer-loop devops cycle, which brings a consistent experience throughout your entire IoT Edge dev process.",
+  "difficulty": "intermediate",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Run Azure IoT Edge Dev Tool Container",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Install Azure IoT Edge Dev Tool",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Create Azure IoT Edge Solution",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Setup IoT Hub and Edge Device",
+        "text": "step4.md"
+      }
+      ,
+      {
+        "title": "Step 5 - Build and Deploy Modules",
+        "text": "step5.md"
+      }
+      ,
+      {
+        "title": "Step 6 - Setup and Start Runtime",
+        "text": "step6.md"
+      }
+      ,
+      {
+        "title": "Step 7 - Monitor Messages",
+        "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "Jon Gallant"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "Please wait while the iotedgedev docker image downloads. You will see 'Status: Downloaded newer image for jongallant/iotedgedev:latest' when it has finished downloading.",
+    "uieditorpath": "/iotedge"
+  },
+  "backend": {
+    "imageid": "iotedgedev-docker"
+  }
+}
