@@ -1,1 +1,1 @@
-mkdir iotedge
+mkdir iotedgedev
