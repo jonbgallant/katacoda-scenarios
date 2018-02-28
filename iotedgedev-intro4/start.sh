@@ -1,1 +1,0 @@
-docker pull jongallant/iotedgedev

@@ -42,6 +42,6 @@
     "uieditorpath": "/iotedgedev"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "iotedgedev-docker"
   }
 }
