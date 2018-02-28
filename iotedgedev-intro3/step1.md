@@ -9,7 +9,7 @@ Click on the command below to run the `jongallant/iotedgedev` container, which w
 
 When you see the following message printed in the terminal the container has been downloaded and you are safe to click the `docker run` command below. `Status: Downloaded newer image for jongallant/iotedgedev:latest`
 
-`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /home:/home -w /home jongallant/iotedgedev`{{execute}}
+`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /root:/root -w /root jongallant/iotedgedev`{{execute}}
 
 This container also includes the Azure IoT Edge Dev Tool, which was installed via pip with the following command: 
 
