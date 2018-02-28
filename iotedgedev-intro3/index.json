@@ -11,31 +11,20 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Install Azure IoT Edge Dev Tool",
+        "title": "Step 2 - Create Azure IoT Edge Solution & Setup Azure Resources",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Create Azure IoT Edge Solution",
+        "title": "Step 3 - Build and Deploy IoT Edge Modules",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Setup IoT Hub and Edge Device",
+        "title": "Step 4 - Setup and Start IoT Edge Runtime",
         "text": "step4.md"
-      }
-      ,
+      },
       {
-        "title": "Step 5 - Build and Deploy Modules",
+        "title": "Step 5 - Monitor Messages",
         "text": "step5.md"
-      }
-      ,
-      {
-        "title": "Step 6 - Setup and Start Runtime",
-        "text": "step6.md"
-      }
-      ,
-      {
-        "title": "Step 7 - Monitor Messages",
-        "text": "step7.md"
       }
     ],
     "intro": {
@@ -51,7 +40,6 @@
     "uilayout": "terminal",
     "uimessage1": "Please wait while the iotedgedev docker image downloads. You will see 'Status: Downloaded newer image for jongallant/iotedgedev:latest' when it has finished downloading.",
     "uieditorpath": "/iotedgedev"
-
   },
   "backend": {
     "imageid": "ubuntu"

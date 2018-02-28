@@ -1,9 +1,13 @@
-Now we'll run the `init` command to create an Azure IoT Edge Solution and setup our Azure IoT Hub and Edge Device.
+Each module in your IoT Edge solution needs built and packaged up into an image to be pulled from the Azure IoT Edge runtime.
 
-`iotedgedev init`{{execute}}
+For each module in your Edge Solution, the `modules --build` command will:
+1. dotnet build and publish
+1. docker build, tag and push to a container registry. 
 
-You will be asked to open a browser and go to https://aka.ms/devicelogin and enter a code. You will then need to login to your Azure account. Complete that process and then come back here.
+The `modules --deploy` command will deploy the modules to your edge device.
 
-The Azure IoT Edge Dev Tool is driven by Environment Variables. The only two variables required to get started are IOTHUB_CONNECTION_STRING and DEVICE_CONNECTION_STRING.  The `init` command will retrieve those settings and automattically save them to your solution's `.env` file.
+Click on the following to execute those commands.
 
-Click Continue
+`iotedgedev modules --build --deploy`{{execute}}
+
+Click Continue when you see the `DEPLOY COMPLETE` message.

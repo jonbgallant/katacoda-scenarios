@@ -1,13 +1,9 @@
-Each module in your IoT Edge solution needs built and packaged up into an image to be pulled from the Azure IoT Edge runtime.
+We now have messages flowing from the simulated temperature sensor module, to the filter module, to the EdgeHub and then up to IoT Hub.  Let's see those messages now:
 
-For each module in your Edge Solution, the `modules --build` command will:
-1. dotnet build and publish
-1. docker build, tag and push to a container registry. 
+Click on the following command to view the messages flowing to IoT Hub from our IoT Edge device.
 
-The `modules --deploy` command will deploy the modules to your edge device.
+`iotedgedev iothub --monitor-events`{{execute}}
 
-Click on the following to execute those commands.
+> Please be patient as you wait for messages to appear in the terminal as it takes a few moments for the Edge Runtime to load the modules.
 
-`iotedgedev modules --build --deploy`{{execute}}
-
-Click Continue when you see the `DEPLOY COMPLETE` message.
+Click Summary after you see the messages printed in the terminal.
