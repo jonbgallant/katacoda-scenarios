@@ -38,7 +38,8 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uimessage1": ""
+    "uimessage1": "",
+    "uieditorpath": "/home/iotedge"
   },
   "backend": {
     "imageid": "iotedgedev-docker"
