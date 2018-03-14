@@ -2,8 +2,6 @@ We now have messages flowing from the simulated temperature sensor module, to th
 
 Click on the following command to view the messages flowing to IoT Hub from our IoT Edge device.
 
-`iotedgedev iothub --monitor-events`{{execute}}
+`iotedgedev monitor`{{execute}}
 
 > Please be patient as you wait for messages to appear in the terminal as it takes a few moments for the Edge Runtime to load the modules.
-
-Click Summary after you see the messages printed in the terminal.

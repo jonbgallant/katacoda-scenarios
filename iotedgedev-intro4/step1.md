@@ -3,11 +3,11 @@ To get started, let's run a custom **Azure IoT Edge Dev Container** that contain
 - .NET Core SDK
 - Python
 - Pip
-- Azure CLI.
+- Azure CLI
 
 Click the following to run the container:
 
-`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /root:/root -w /root jongallant/iotedgedev`{{execute}}
+`docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /home:/home -w /home/iotedge jongallant/iotedgedev`{{execute}}
 
 This container also includes the Azure IoT Edge Dev Tool, which was installed via pip with the following command: 
 
@@ -15,4 +15,4 @@ This container also includes the Azure IoT Edge Dev Tool, which was installed vi
 
 (You do not need to execute this command because it is already included in the container)
 
-Click Continue 
+
