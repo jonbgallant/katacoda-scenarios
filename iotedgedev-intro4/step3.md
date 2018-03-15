@@ -22,4 +22,4 @@ Click on the following to execute the `deploy` command:
 You can also run both of these commands at the same time with: `iotedgedev build --deploy`
 
 ## Continue
-Click the Continue button below when you see the `DEPLOY COMPLETE` message.
+Click the **Continue** button below when you see the `DEPLOY COMPLETE` message.

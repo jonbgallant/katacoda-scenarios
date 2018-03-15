@@ -2,5 +2,8 @@ Now we'll run the `init` command to create an Azure IoT Edge Solution and setup 
 
 `iotedgedev init`{{execute}}
 
-You will be asked to open a browser and go to https://aka.ms/devicelogin and enter a code. You will then need to login to your Azure account. Complete the login process and then come back here.
+You will be asked to open a browser and go to https://aka.ms/devicelogin and enter a code. You will then need to login to your Azure account. Complete the login process and then come back here to complete the process.
+
+## Continue
+Click the **Continue** button after your connection strings are saved to the .env file.
 

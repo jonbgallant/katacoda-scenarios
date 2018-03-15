@@ -5,3 +5,7 @@ Click on the following command to view the messages flowing to IoT Hub from our 
 `iotedgedev monitor`{{execute}}
 
 > Please be patient as you wait for messages to appear in the terminal as it takes a few moments for the Edge Runtime to load the modules.
+
+## Conclusion
+
+Congratulations! You have successfully created a new IoT Edge solution, built, pushed and deployed all the modules to the device and then monitored the messages flowing from the IoT Edge Device into IoT Hub.

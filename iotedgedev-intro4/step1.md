@@ -16,3 +16,5 @@ This container also includes the Azure IoT Edge Dev Tool, which was installed vi
 (You do not need to execute this command because it is already included in the container)
 
 
+## Continue
+Click the **Continue** button when you see the `/home/iotedge` folder in the terminal to the right.

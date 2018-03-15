@@ -6,4 +6,5 @@ Click on the following command to setup and start the IoT Edge Runtime.
 
 `iotedgedev start`{{execute}}
 
-Click Continue after you see the `RUNTIME STARTED` message.
+## Continue
+Click the **Continue** button after you see the `RUNTIME STARTED` message.
